@@ -49,7 +49,7 @@ Adding geography significantly improved model fit, while vehicle segment and saf
 
 ### Calibration
 
-![Calibration Plot](images/model2_calibration.png)
+![Calibration Plot](images/model2_calibration_plot.png)
 
 ### Model Interpretation
 
