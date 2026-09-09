@@ -53,6 +53,8 @@ The observed claim rate increased from approximately:
 - 3.89% in the lowest-risk decile
 - 9.11% in the highest-risk decile
 
+![Risk Deciles](images/risk_decile.png)
+
 The model therefore provides useful broad risk separation despite modest individual-level discrimination.
 
 ## Business Interpretation
