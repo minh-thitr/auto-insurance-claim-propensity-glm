@@ -47,13 +47,21 @@ Adding geography significantly improved model fit, while vehicle segment and saf
 | Predicted Claim Rate | 6.397% |
 | Actual Claim Rate | 6.399% |
 
+### Calibration
+
+![Calibration Plot](images/model2_calibration.png)
+
+### Model Interpretation
+
+![Estimated Odds Ratios](images/estimated_odds_ratio.png)
+
 ## Risk Segmentation
 
 The observed claim rate increased from approximately:
 - 3.89% in the lowest-risk decile
 - 9.11% in the highest-risk decile
 
-![Risk Deciles](images/risk_decile.png)
+![Risk Deciles](images/risk_deciles.png)
 
 The model therefore provides useful broad risk separation despite modest individual-level discrimination.
 
