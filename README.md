@@ -1,13 +1,11 @@
 # auto-insurance-claim-propensity-glm
 
-Actuarial GLM project for auto insurance claim propensity, model validation, O/E analysis, and risk segmentation.
-
 ## Overview
 
 This project develops an interpretable binomial GLM to estimate auto insurance claim propensity using policyholder, vehicle, and geographic characteristics.
 
 - 58,592 policies
-- Observed claim rate: 6.4%
+- Observed claim rate: 6.399%
 - Final model: Model 2
 - Holdout ROC-AUC: 0.5765
 - Overall O/E: 0.9997
@@ -46,14 +44,14 @@ Adding geography significantly improved model fit, while vehicle segment and saf
 | PR-AUC | 0.0853 |
 | Log Loss | 0.2356 |
 | Brier Score | 0.0596 |
-| Predicted Claim Rate | 6.40% |
-| Actual Claim Rate | 6.40% |
+| Predicted Claim Rate | 6.397% |
+| Actual Claim Rate | 6.399% |
 
 ## Risk Segmentation
 
 The observed claim rate increased from approximately:
-- 3.9% in the lowest-risk decile
-- 9.1% in the highest-risk decile
+- 3.89% in the lowest-risk decile
+- 9.11% in the highest-risk decile
 
 The model therefore provides useful broad risk separation despite modest individual-level discrimination.
 
