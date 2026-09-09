@@ -1,4 +1,4 @@
-# auto-insurance-claim-propensity-glm
+# Auto Insurance Claim Propensity Using GLM
 
 ## Overview
 
